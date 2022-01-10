@@ -1,0 +1,31 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+$base: 100%;
+$captions: 3.2rem;
+
+section {
+    padding: 5em 0;
+}
+
+#featured {
+    h1.hero-text {
+        font-size: $captions;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: 480px) {
+        text-align: center; 
+    }
+
+    .padding {
+        padding: 0 10em;
+    }
+}
